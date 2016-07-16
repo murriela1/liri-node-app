@@ -2,7 +2,7 @@ var keys = require('./keys.js').twitterKeys;
 var tweets = require('./twitter.js');
 var imported_movie_command = require('./omdb.js').movie_command;
 var imported_spotify_this_song = require('./spotify.js').spotify_this_song;
-var fs = require('fs.extra');
+var fs = require('fs');
 var command = process.argv[2];
 var commandArg = process.argv[3];
 
